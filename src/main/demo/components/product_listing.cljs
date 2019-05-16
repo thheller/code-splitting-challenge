@@ -1,5 +1,7 @@
 (ns demo.components.product-listing
-  (:require [demo.env :as env]))
+  (:require
+    [demo.env :as env]
+    ["react-table" :as rt]))
 
 (defn root []
   [:div

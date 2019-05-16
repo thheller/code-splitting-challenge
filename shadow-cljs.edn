@@ -22,13 +22,14 @@
     {:entries [demo.components.account-overview]
      :depends-on #{:main}}
 
-    :product-detail
-    {:entries [demo.components.product-detail]
-     :depends-on #{:main}}
 
     :product-listing
     {:entries [demo.components.product-listing]
      :depends-on #{:main}}
+
+    :product-detail
+    {:entries [demo.components.product-detail]
+     :depends-on #{:product-listing}}
 
     :sign-in
     {:entries [demo.components.sign-in]
